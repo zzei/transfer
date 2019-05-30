@@ -1,0 +1,13 @@
+spring:
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://10.211.55.7:3306/happy
+    username: root
+    password: 123456
+  rabbitmq:
+    host: 10.211.55.7
+    username: guest
+    password: guest
+mybatis:
+  configuration:
+    map-underscore-to-camel-case: true
